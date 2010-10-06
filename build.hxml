@@ -1,4 +1,4 @@
 -cp src
 -php www/
 -main Main
--debug
+#-debug
