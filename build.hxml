@@ -1,0 +1,4 @@
+-cp src
+-php www/index.php
+-main Main
+-debug
