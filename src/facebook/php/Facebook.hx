@@ -1,4 +1,4 @@
-package facebook;
+package facebook.php;
 import php.Lib;
 
 using Lambda;
@@ -73,10 +73,16 @@ class Facebook {
 		return dest;
 	}
 	
-	public function api<T>(query:String):T
+	public inline function api<T>(query:String):T
 		return this.buildObject({},inst.api(query))
 	
-	public function getUser():Int
+	public inline function getUser():Int
 		return inst.getUser()
+		
+	public inline function getLogoutUrl():String
+		return inst.getLogoutUrl()
+		
+	public inline function getLoginUrl():String
+		return inst.getLoginUrl()
 
 }

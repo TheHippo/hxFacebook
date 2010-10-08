@@ -1,4 +1,4 @@
-package facebook;
+package facebook.php;
 
 typedef Session = {
 	session_key:String,

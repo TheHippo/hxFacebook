@@ -19,7 +19,7 @@ class Main {
 		fb.setSession(session);
 		trace(fb.getSession());
 		trace("Query");
-		//trace(fb.api("/philipp.klose"));
+		trace(fb.api("/me/photos?fields=source,picture&until=now&since=0"));
 		trace("user");
 		trace(fb.getUser());
 		
